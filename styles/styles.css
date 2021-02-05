@@ -1,0 +1,294 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+
+:root {
+  --color-primary: #9e0096;
+  --color-secondary: #700074;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+  --roboto: "Roboto", sans-serif;
+  --gugi: "Gugi", cursive; 
+  --potta-one: "Potta+One", cursive;
+}
+
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.img-fluid {
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+  user-select: none;
+  width: 100%;
+}
+
+body,
+input {
+  font-family: Inter, Arialm Arial, Helvetica, sans-serif;
+  font-size: 2, 4rem;
+  line-height: 1.5;
+  color: var(--color-body);
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  /* 1x font size of the html element*/
+  font-size: 7rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+.col {
+  background: #fff;
+  margin: 1rem;
+  margin-top: 2rem;
+  padding: 0.4rem;
+  color: black;
+  border-radius: 0.85rem;
+}
+.col > h4 {
+  margin: 5px;
+}
+main > h2 {
+  text-align: center;
+  color: #fff;
+}
+
+/* Login form */
+section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+section .containerr {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+section .containerr .user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+section .containerr .user .imgBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: purple;
+  transition: 0.5s;
+}
+
+section .containerr .user .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section .containerr .user .formBx {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  transition: 0.5s;
+}
+
+section .containerr .user .formBx form h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  color: #555;
+}
+
+section .containerr .user .formBx form input {
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  background: #f5f5f5;
+  color: #333;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  margin: 8px 0;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 300;
+  border: 1px solid #555;
+  border-radius: 10px;
+}
+
+section .containerr .user .formBx form input[type="submit"] {
+  max-width: 100px;
+  background: #677eff;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+/* Login */
+section .containerr .user .formBx form .signup {
+  position: relative;
+  margin-top: 20px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #555;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+section .containerr .user .formBx form .signup a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #677eff;
+}
+
+section .containerr .signupBx .formBx {
+  left: 100%;
+}
+
+section .containerr.active .signupBx .formBx {
+  left: 0;
+}
+
+section .containerr .signupBx {
+  pointer-events: none;
+}
+
+section .containerr.active .signupBx {
+  pointer-events: initial;
+}
+
+section .containerr .signupBx .imgBx {
+  left: -100%;
+}
+
+section .containerr.active .signupBx .imgBx {
+  left: 0;
+}
+
+.button{
+  background: var(--color-primary);
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 8px 20px;
+  border-radius: 15px;
+  font-family: var(--roboto);
+  margin: 5px;
+  
+}
+
+.button:hover{
+  background: var(--color-secondary);
+  color: white;
+ 
+ 
+}
+
+
+
+.logo{
+  color: var(--color-secondary);
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-family: var(--potta-one);
+  text-transform: uppercase;
+
+}
+
+.logoo{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-shadow: #700074;
+  color: var(--color-primary);
+  font-family: var(--roboto);
+}
+
+.logoo:hover{
+  color: var(--color-secondary);
+  transition: blink 0.5s;
+}
+.navbar-brand{
+  color: var(--color-primary);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  .imgBx {
+    display: none;
+  }
+  .formBx {
+    width: 100% !important;
+  }
+  .banner{
+    height: 100px !important;
+  }
+}
