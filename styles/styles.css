@@ -256,7 +256,68 @@ section .containerr.active .signupBx .imgBx {
 .navbar-brand{
   color: var(--color-primary);
 }
+nav > .nav > .container-fluid{
+  display: flex;
+  justify-content: space-between;
+}
 
+footer{
+  background: #111;
+  height: auto;
+  width: 100vw auto;
+  font-family: var(--roboto);
+  padding-top: 20px;
+  color: rgb(14, 10, 10);
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3{
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3.5rem;
+}
+
+.footer-content p{
+  color: #fff;
+}
+
+.footer-content a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: rgb(188, 116, 255);
+  transition: 0.5s;
+}
+
+.footer-content a:hover{
+  color: rgb(106, 40, 168);
+  transition: 0.5s;
+}
+
+.footer > p >.text{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  width: 5rem; 
+}
+
+.shop4e{
+  color:#a254a5;
+  transition: 0.5s;
+}
+
+.shop4e:hover{
+  color:#a1a1a1;
+  transition: 0.5s;
+}
 
 
 
