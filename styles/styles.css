@@ -278,11 +278,11 @@ footer{
   text-align: center;
 }
 
-.footer-content h3{
+.footer-content > h3{
   color: #fff;
   font-size: 1.8rem;
   font-weight: 400;
-  line-height: 3.5rem;
+  line-height: 3rem;
 }
 
 .footer-content p{
@@ -310,13 +310,24 @@ footer{
 }
 
 .shop4e{
-  color:#a254a5;
+  color:#ffffff;
   transition: 0.5s;
 }
 
 .shop4e:hover{
-  color:#a1a1a1;
+  color:#686868;
   transition: 0.5s;
+}
+
+.nav-item{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.navbar-brand{
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  padding: 0;
+  cursor: pointer;
 }
 
 
