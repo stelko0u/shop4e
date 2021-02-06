@@ -1,7 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
 
 :root {
   --color-primary: #9e0096;
@@ -10,12 +9,9 @@
   --color-headings: #1b0760;
   --color-body: #918ca4;
   --roboto: "Roboto", sans-serif;
-  --gugi: "Gugi", cursive; 
+  --gugi: "Gugi", cursive;
   --potta-one: "Potta+One", cursive;
 }
-
-
-
 
 * {
   padding: 0;
@@ -56,7 +52,6 @@ h3 {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
-
 
 .col {
   background: #fff;
@@ -209,7 +204,7 @@ section .containerr.active .signupBx .imgBx {
   left: 0;
 }
 
-.button{
+.button {
   background: var(--color-primary);
   color: white;
   text-decoration: none;
@@ -218,29 +213,23 @@ section .containerr.active .signupBx .imgBx {
   border-radius: 15px;
   font-family: var(--roboto);
   margin: 5px;
-  
 }
 
-.button:hover{
+.button:hover {
   background: var(--color-secondary);
   color: white;
- 
- 
 }
 
-
-
-.logo{
+.logo {
   color: var(--color-secondary);
   width: 100%;
   text-align: center;
   font-size: 40px;
   font-family: var(--potta-one);
   text-transform: uppercase;
-
 }
 
-.logoo{
+.logoo {
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -249,28 +238,29 @@ section .containerr.active .signupBx .imgBx {
   font-family: var(--roboto);
 }
 
-.logoo:hover{
+.logoo:hover {
   color: var(--color-secondary);
   transition: blink 0.5s;
 }
-.navbar-brand{
+.navbar-brand {
   color: var(--color-primary);
 }
-nav > .nav > .container-fluid{
+nav > .nav > .container-fluid {
   display: flex;
   justify-content: space-between;
 }
 
-footer{
+footer {
   background: #111;
   height: auto;
   width: 100vw auto;
   font-family: var(--roboto);
   padding-top: 20px;
   color: rgb(14, 10, 10);
+  margin-top: 100px;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -278,65 +268,66 @@ footer{
   text-align: center;
 }
 
-.footer-content > h3{
+.footer-content > h3 {
   color: #fff;
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 3rem;
 }
 
-.footer-content p{
+.footer-content p {
   color: #fff;
 }
 
-.footer-content a{
+.footer-content a {
   text-decoration: none;
   font-size: 1.3rem;
   color: rgb(188, 116, 255);
   transition: 0.5s;
 }
 
-.footer-content a:hover{
+.footer-content a:hover {
   color: rgb(106, 40, 168);
   transition: 0.5s;
+  transform: rotateY(15deg);
 }
 
-.footer > p >.text{
+.footer > p > .text {
   justify-content: center;
   align-items: center;
   text-align: center;
   color: #fff;
-  width: 5rem; 
+  width: 5rem;
 }
 
-.shop4e{
-  color:#ffffff;
+.shop4e {
+  color: #ffffff;
   transition: 0.5s;
-}
-
-.shop4e:hover{
-  color:#686868;
-  transition: 0.5s;
-}
-
-.nav-item{
-  font-size: 1.2rem;
+  font-family: var(--gugi);
   font-weight: 300;
 }
-.navbar-brand{
+
+.shop4e:hover {
+  color: #686868;
+  transition: 0.5s;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.navbar-brand {
   letter-spacing: 1px;
   font-size: 1.4rem;
   padding: 0;
   cursor: pointer;
+  font-family: var(--gugi);
+  transition: 1s;
 }
-
-
-
-
-
-
-
-
+.navbar-brand:hover {
+  letter-spacing: 5px;
+  transition: 1s;
+}
 
 
 
@@ -360,7 +351,7 @@ footer{
   .formBx {
     width: 100% !important;
   }
-  .banner{
+  .banner {
     height: 100px !important;
   }
 }
