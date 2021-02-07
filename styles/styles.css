@@ -54,13 +54,15 @@ h3 {
 }
 
 .col {
-  background: #fff;
+  background-color: rgba(255, 255, 255, 0.8);
   margin: 1rem;
   margin-top: 2rem;
-  padding: 0.4rem;
+  padding: 0.5rem;
   color: black;
   border-radius: 0.85rem;
+  font-weight: 500;
 }
+
 .col > h4 {
   margin: 5px;
 }
