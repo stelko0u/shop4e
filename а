@@ -1,0 +1,72 @@
+<div class="container">
+        <div class="row align-items-start">
+          <div class="col-sm">
+            <img src="./images/nike.jpg" class="img-thumbnail" alt="..." />
+            <h4>Nike</h4>
+            <h5>Номер: 1</h5>
+            <ul>
+              <li>Състояние: 9,5/10</li>
+              <li>Размер: S</li>
+              <li>Цена 49лв</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <img src="./orders/a.jpg" class="img-thumbnail" alt="..." />
+            <h4>Nike Leggings (Дамско)</h4>
+            <h5>Номер: 2</h5>
+            <ul>
+              <li>Състояние: 9,5/10</li>
+              <li>Размер: М</li>
+              <li>Цена: 34лв</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row align-items-lg-start">
+          <div class="col-sm">
+            <img src="./orders/b.jpg" class="img-thumbnail">
+            <h4>Puma Zip-up</h4>
+            <h5>Номер: 3</h5>
+            <ul>
+              <li>Състояние: 9,5/10</li>
+              <li>Размер: Xs</li>
+              <li>Цена: 34лв</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <img src="./orders/c.jpg" class="img-thumbnail">
+            <h4>Under Armour Zip-Up (Дамско)</h4>
+            <h5>Номер: 4</h5>
+            <ul>
+              <li>Състояние: 9,5/10</li>
+              <li>Размер: М</li>
+              <li>Цена: 29лв</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row align-items-lg-start">
+          <div class="col-sm">
+            <img src="./orders/f.jpg" class="img-thumbnail">
+            <h4>Polo Ralph Lauren Shirt</h4>
+             <h5>Номер: 5</h5>
+            <ul>
+              <li>Състояние: Ново</li>
+              <li>Размер: M</li>
+              <li>Цена: 49лв</li>
+            </ul>
+          </div>
+          <div class="col-sm">
+            <img src="./orders/g.jpg" class="img-thumbnail">
+            <h4>Champion Long sleeve (Дамско)</h4>
+            <h5>Номер: 6</h5>
+            <ul>
+              <li>Състояние: 9,5/10</li>
+              <li>Размер: S</li>
+              <li>Цена: 49лв</li>
+            </ul>
+          </div>
+        </div>
+      </div>
