@@ -333,6 +333,21 @@ footer {
 
 
 
+.col-sm {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 1rem;
+  padding: 0.5rem;
+  color: black;
+  border-radius: 0.85rem;
+  font-weight: 500;
+}
+
+.col-sm > ul > li{
+  font-size: 18px;
+}
+
+
+
 
 
 
@@ -355,5 +370,12 @@ footer {
   }
   .banner {
     height: 100px !important;
+  }
+  .container{
+    width: 100% !important;
+  }
+  .col-sm{
+    margin: 0;
+    margin-top: 10px;
   }
 }
